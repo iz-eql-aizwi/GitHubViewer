@@ -1,0 +1,24 @@
+# https://editorconfig.org
+
+# https://pinterest.github.io/ktlint/1.2.1/rules/code-styles/
+
+root = true
+
+[*.{kt,kts}]
+ktlint_code_style = intellij_idea
+
+ktlint_standard_function-expression-body = disabled
+ktlint_standard_function-signature = disabled
+ktlint_standard_value-argument-comment = disabled
+ktlint_standard_value-parameter-comment = disabled
+
+ktlint_function_naming_ignore_when_annotated_with = Composable
+
+[./openapi/*.{kt,kts}]
+ktlint_standard = disabled
+ktlint_experimental = disabled
+
+# todo OpenApiの自動生成をコピーしないようになったらこちらは削除する
+[**/data/api/**/*.{kt,kts}]
+ktlint_standard = disabled
+ktlint_experimental = disabled
