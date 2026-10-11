@@ -1,0 +1,7 @@
+<resources>
+    <string name="navigate_to_home">Navigate to home</string>
+    <string name="no_readme_text">このリポジトリのREADME.md が存在しません</string>
+    <string name="back_to_home_screen_text">ホーム画面に戻る</string>
+    <string name="connection_error_text">通信が失敗しました</string>
+    <string name="retry_text">リトライ</string>
+</resources>

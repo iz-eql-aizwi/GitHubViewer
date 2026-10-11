@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GitHubViewer</string>
+    <string name="data_fetch_limit_text">データ読み込みが上限に達しました</string>
+    <string name="connection_error_text">通信が失敗しました</string>
+    <string name="no_repository_text">該当するリポジトリが存在しません</string>
+    <string name="suggest_search_word_text">検索ワードを変更してください</string>
+    <string name="suggest_input_search_word_text">検索ワードを入力してください</string>
+    <string name="retry_text">リトライ</string>
+    <string name="change_to_desc">Change to desc</string>
+    <string name="change_to_asc">Change to asc</string>
+    <string name="search_placeholder">Search GitHub Repositories!</string>
+    <string name="search_label">Search</string>
+</resources>
