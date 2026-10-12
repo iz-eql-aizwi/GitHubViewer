@@ -47,6 +47,7 @@ dependencies {
     implementation(libs.hilt.android)
     implementation(libs.multiplatform.markdown.renderer)
     implementation(libs.multiplatform.markdown.renderer.m3)
+    implementation(libs.multiplatform.markdown.renderer.coil3)
     ksp(libs.hilt.android.compiler)
 
     testImplementation(libs.junit)

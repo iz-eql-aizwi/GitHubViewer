@@ -26,6 +26,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.mikepenz.markdown.coil3.Coil3ImageTransformerImpl
 import com.mikepenz.markdown.m3.Markdown
 
 @Composable
@@ -61,7 +62,10 @@ fun DetailScreen(
                         .padding(16.dp)
                         .verticalScroll(rememberScrollState()),
                 ) {
-                    Markdown(content = state.readmeText)
+                    Markdown(
+                        content = state.readmeText,
+                        imageTransformer = Coil3ImageTransformerImpl,
+                    )
                 }
             }
 
