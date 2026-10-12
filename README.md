@@ -8,7 +8,7 @@ GitHub APIを活用して、リポジトリの検索・詳細表示を行えるA
 ## 📱 スクリーンショット
 | ホーム画面 (検索・一覧) | 詳細画面 |
 | :---: | :---: |
-| <img width="270" height="600" alt="GitHubViewer_HomeScreen" src="https://github.com/user-attachments/assets/d1b494e6-c3ad-411e-b063-9650888544ab" /> | <img width="270" height="600" alt="GitHubViewer_DetailScreen" src="https://github.com/user-attachments/assets/8bd0e84d-7d46-44cc-83d7-bce635d8eaf2" /> |
+| <img width="270" height="600" alt="GitHubViewer_HomeScreen" src="https://github.com/user-attachments/assets/d1b494e6-c3ad-411e-b063-9650888544ab" /> | <img width="270" height="600" alt="GitHubViewer_DetailScreen_v1 1 0" src="https://github.com/user-attachments/assets/8e1c5248-e202-4b22-a781-fa25e8e1d8b9" /> |
 
 - **リポジトリ検索**：キーワードによるGitHubリポジトリの検索一覧表示
 - **詳細閲覧**：選択したリポジトリの詳細情報の表示
@@ -17,7 +17,7 @@ GitHub APIを活用して、リポジトリの検索・詳細表示を行えるA
 ## 🎬 実機動画
 アプリの実際の動作やインタラクションの様子です。
 
-> [動画を視聴する](https://www.youtube.com/shorts/FOW6r-AYFWY)
+> [実機動画を視聴する](https://youtube.com/shorts/sU6Q8dKxbA8)
 <br />
 
 ## 🏗 アーキテクチャ・プロジェクト構成
@@ -41,11 +41,7 @@ GitHub APIを活用して、リポジトリの検索・詳細表示を行えるA
 <br />
 
 ## 🚀 アップデート情報
-※ 現在は初期リリース（v1.0.4）の公開状態ですが、今後、機能追加や改善を予定しています。
-<!--
-- **v1.1.0** (YYYY-MM-DD)：
-  - 〇〇機能の追加（例：ソート機能の実装）
-  - エラーハンドリングの改善
-- **v1.0.0** (YYYY-MM-DD)：
-  - アプリの初期リリース（リポジトリ検索・詳細表示機能）
--->
+- **v1.0.4** (2026-10-11)
+  - アプリの初期リリース
+- **v1.1.0** (2026-10-12)
+  - マークダウンのレンダリング機能追加による詳細画面のビジュアル向上
